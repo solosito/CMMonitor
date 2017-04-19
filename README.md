@@ -1,3 +1,6 @@
+# CMMonitor
+Simple script for measuring and plotting over the time CPU and RAM usage in Unix machines.
+
 ## Settings
 Add a cron task that which launches the script for logging data:
 
