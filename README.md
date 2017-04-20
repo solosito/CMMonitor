@@ -14,6 +14,10 @@ Add a cron task that which launches the script for logging data:
         * * * * * while true; do path_to_folder/ps.sh & sleep <<<executing_freq>>>; done
           
 ## Plotting data
+0. Install prerequisites:
+
+		pip install -r requirements.txt
+
 1. Go to the folder where the ```plot_usage.py``` is and run it:
     - Whether executing ```python plot_usage.py``` 
     - Whether making it executable with ```chmod 777 plot_usage.py``` and  executing it with ```./plot_usage.py```
